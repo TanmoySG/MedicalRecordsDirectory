@@ -19,4 +19,4 @@ The Project’s aim is to use an Individual’s Unique Identification Number (Aa
 
 * If the patient is admitted to the hospital for anyreason, the record of all the processes shall be uploaded to the Directory.
 
-The above-mentioned process will be executed on the user's end using an 
+The above-mentioned process will be executed on the user's end using an App/Website which will be accessible to both the end users, that is, the patient and the doctor.
