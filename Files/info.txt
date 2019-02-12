@@ -1,1 +1,21 @@
+Medical Records Directory
 
+A project to keep track of Medical History of an individual, to be used by Doctors and Medical Personel for better treatment of that individual.
+AIM
+
+The Project’s aim is to use an Individual’s Unique Identification Number (Aadhar, in case of India) for the purpose of keeping records of the medical history of that individual. This will enable doctors to make treatment more effective and eradicate the need of any physical records. Complete medical history of an individual helps a Doctor to understand his/her patient's previous medical conditions and its effects on the patient's current medical condition by assessment of the test reports and previously prescribed medications, without the need of any physical hard copy ofthe same.People generally tend to lose or throw away their old medical history considering that these would not be needed anymore. But studies have shown that many medical conditions can be triggered by diseases that might have happened earlier in theirlife. Also, people being treated by multiple doctors for multiple problems have a different set of medicines for different problems. But there are times when a combination of different medicines cause complications and give rise to new problems. So, the knowledge of previous or ongoing medications can help a doctor prescribe medicines that do not have such effects.This system can help the medical system of the country by making data more accessible.
+WORKING PROCESS
+
+    A ‘Medical Legacy Number (MLN)’, linked to the UID Number of the Individual will be assigned by the overseeing authority.
+
+    The MLN shall be required at the time when an Individual visits any kind of Medical Facility for a checkup or undergoes any medical procedure.
+
+    The report for the process will be generated for the Individual and a copy of the same will be sent to the Medical Legacy Directory, where it’ll be stored against the Individual’s MLN.Digital copy of the prescription issued by the doctor, with the medicines and medical tests mentioned shall also be uploaded to the Directory.
+
+    Whenever the individual goes for a checkup for any new symptoms, the Doctor shall request the Individual's Medical Legacy Data using the Individual’s MLN.
+
+    A request sent against the MLN will be received by the server and it'll notify the patient and send an OTP(One Time Password) to the Individual for verification. When the request is verified, the Doctor will be given access to the patient's Medical History.
+
+    If the patient is admitted to the hospital for anyreason, the record of all the processes shall be uploaded to the Directory.
+
+The above-mentioned process will be executed on the user's end using an
