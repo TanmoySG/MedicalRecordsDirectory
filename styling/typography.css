@@ -1,0 +1,38 @@
+/* 
+    Created on : Feb 12, 2019, 11:04:58 PM
+    Author     : Tanmoy Sen Gupta
+*/
+
+.nav-title{
+  font-size: 1rem;
+}
+
+ .paallax-content-section{
+      font-size: 50px;
+  }
+@media (min-width:576px) {
+  .nav-title {
+    font-size: 1.2rem;
+  }
+  .paallax-content-section{
+      font-size: 60px;
+  }
+}
+@media (min-width:768px) {
+  .nav-title{
+    font-size:1.4rem;
+  }
+  
+   .paallax-content-section{
+      font-size: 70px;
+  }
+}
+@media (min-width:992px) {
+  .nav-title {
+    font-size: 1.6rem;
+  }
+  
+   .paallax-content-section{
+      font-size: 80px;
+  }
+}

@@ -1,0 +1,82 @@
+/* 
+    Dashboard Stylesheet | version 0.1 Beta | Amigos,Inc./Intelligent Resources Company
+    Created on : Jan 13, 2019, 12:19:19 PM
+    Author     : Tanmoy Sen Gupta
+*/
+
+
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color:#acacac;
+    padding-left: 40px;
+}
+
+a :active :focus :visited{
+    color: #acacac; 
+}
+
+a:hover{
+    color:#515151;
+}
+
+.dashboard-area{
+    padding-top: 20px;
+}
+
+.content-section{
+    padding-left: 50px;
+    padding-right: 50px;    
+    }
+
+.paallax-content-section{
+    padding-left: 50px;
+    padding-right: 50px;
+    vertical-align: central;
+
+}
+
+.parallax{
+    background-image: url("../images/img1.jpg");
+    height: 400px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dashboard-navbar-light{
+    display: flex;
+    height: 25px;
+    background-color: #ffffff; 
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: solid #d1d1d1 1px;
+}
+
+.dashboard-function-area-light{
+    background-color: #ffffff;
+    padding: 20px;
+    border: solid #d1d1d1 1px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dashboard-navbar-options-light{
+    color: #252525;
+    font-size: 26px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+
+.dashboard-stat-count{
+
+}
