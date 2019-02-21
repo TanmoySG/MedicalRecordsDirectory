@@ -12,41 +12,27 @@ body{
 }
 
 a {
-    color:#acacac;
-    padding-left: 40px;
+    text-decoration: none; 
 }
 
 a :active :focus :visited{
-    color: #acacac; 
+    color: #eeeeee; 
 }
 
 a:hover{
-    color:#515151;
-}
-
-.dashboard-area{
-    padding-top: 20px;
+    color: #eeeeee; 
 }
 
 .content-section{
     padding-left: 50px;
     padding-right: 50px;    
-    }
+}
 
 .paallax-content-section{
     padding-left: 50px;
     padding-right: 50px;
     vertical-align: central;
 
-}
-
-.parallax{
-    background-image: url("../images/img1.jpg");
-    height: 400px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .dashboard-navbar-light{
@@ -59,24 +45,10 @@ a:hover{
     border-bottom: solid #d1d1d1 1px;
 }
 
-.dashboard-function-area-light{
-    background-color: #ffffff;
-    padding: 20px;
-    border: solid #d1d1d1 1px;
-    border-radius: 8px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
 .dashboard-navbar-options-light{
     color: #252525;
     font-size: 26px;
     padding-top: 17px;
     padding-bottom: 17px;
     font-family: 'Montserrat', sans-serif;    
-}
-
-
-.dashboard-stat-count{
-
 }
