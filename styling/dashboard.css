@@ -52,3 +52,14 @@ a:hover{
     padding-bottom: 17px;
     font-family: 'Montserrat', sans-serif;    
 }
+
+.box{
+    display: block;
+    border-radius: 20px;
+    min-height: 33.33333333% ;
+    padding: 10px;  
+    /*border: 2px solid #eaedee;*/
+    margin: 10px;
+    background-color: white;
+    box-shadow: rgba(36, 37, 38, 0.08) 0px 6px 15px 0px;
+}

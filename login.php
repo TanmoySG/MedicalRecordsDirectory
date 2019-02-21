@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -18,7 +13,7 @@ and open the template in the editor.
         <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans:300|Oswald|Raleway|Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     </head>
-    <body style=" background-color: #f1f1f1">
+    <body style=" height:  100%; background-color: #f5f5f5">
         <div class="dashboard-navbar-light">
             <div class="dashboard-navbar-options-light nav-title" style="width: 100%;">
                 <center>
@@ -31,37 +26,43 @@ and open the template in the editor.
                 </center>
             </div>
         </div>
-        <div style="height: 92vh;color: #1e78ff; background-color: #f1f1f1">
-            <div style="transform: translateY(20%)">
+        <div style="color: #1e78ff;">
+            <div style="padding-top: 5%; vertical-align: central;">
                 <center><span class="col-12" style="font-family: Montserrat; font-size: 75px;">LOGIN</span></center><br>
                 <div class="content-section" style="font-family: bebas-neue">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <a style="color:  #1e78ff;" href="doctorLogin.php">
-                                <center>
-                                    <i class="fas fa-user-md" style="font-size: 200px;"></i>
-                                    <br><br>
-                                    <span style="font-size: 50px">Doctor</span>
-                                </center>
-                            </a>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+                            <div class="box">
+                                <a style="color:  #1e78ff;" href="doctorLogin.php">
+                                    <center>
+                                        <i class="fas fa-user-md" style="font-size: 200px;"></i>
+                                        <br><br>
+                                        <span style="font-size: 50px">Doctor</span>
+                                    </center>
+                                </a>  
+                            </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <a style="color:  #1e78ff;" href="hospitalLogin.php">
-                                <center>
-                                    <i class="fas fa-hospital" style="font-size: 200px;"></i>
-                                    <br><br>
-                                    <span style="font-size: 50px">Hospital/Clinic</span>
-                                </center>
-                            </a>
+                            <div class="box">
+                                <a style="color:  #1e78ff;" href="hospitalLogin.php" >
+                                    <center>
+                                        <i class="fas fa-hospital" style="font-size: 200px;"></i>
+                                        <br><br>
+                                        <span style="font-size: 50px">Hospital</span>
+                                    </center>
+                                </a>
+                            </div>
                         </div>  
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <a style="color:  #1e78ff;" href="userLogin.php">
-                                <center>
-                                    <i class="fas fa-user" style="font-size: 200px;"></i>
-                                    <br><br>
-                                    <span style="font-size: 50px">User</span>
-                                </center>
-                            </a>
+                            <div class="box">
+                                <a style="color:  #1e78ff;" href="userLogin.php">
+                                    <center>
+                                        <i class="fas fa-user" style="font-size: 200px;"></i>
+                                        <br><br>
+                                        <span style="font-size: 50px">User</span>
+                                    </center>
+                                </a>
+                            </div>
                         </div>   
                     </div>
                 </div> 
