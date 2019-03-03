@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<!--
+
+   Medical Legacy Directory v0.1 Beta
+   Project by Tanmoy Sen Gupta | tanmoysps@gmail.com | www.tanmoysg.com
+
+-->   
 <html>
     <head>
         <meta charset="UTF-8">
@@ -13,7 +19,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans:300|Oswald|Raleway|Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     </head>
-    <body style=" height:  100%; background-color: #f5f5f5">
+    <body style=" height:  100%; background-color: #f5f5f5; padding-bottom: 10px;">
         <div class="dashboard-navbar-light">
             <div class="dashboard-navbar-options-light nav-title" style="width: 100%;">
                 <center>
@@ -67,7 +73,7 @@
                     </div>
                 </div> 
                 <br><br><br>
-                <center style="font-family: Montserrat; font-size: 35px;color: black" class="col-12" >New user? <a href="register.php" style="color: #1e78ff ">Register</a></center><br>
+                <center style="font-family: Montserrat; font-size: 35px;color: black" class="col-12" >New user? <a href="register.html" style="color: #1e78ff ">Register</a></center><br>
             </div>
         </div>
     </body>

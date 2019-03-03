@@ -1,0 +1,44 @@
+/*
+Project by Tanmoy Sen Gupta | tanmoysps@gmail.com | www.tanmoysg.com
+*/
+/* 
+    Created on : Feb 23, 2019, 12:02:04 PM
+    Author     : Tanmoy Sen Gupta
+*/
+
+form{
+    font-family: 'Varela Round';
+}
+
+.box{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.input-box{
+    padding: 10px;
+    border: 1px solid #1e78ff;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+
+.form-input-group{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-button-one{
+    border: solid 1px #1e78ff;
+    border-radius: 10px; 
+    padding: 10px; 
+    font-family: Montserrat;
+    background-color: white; 
+    font-size: 20px; 
+    color: #1e78ff;
+    cursor: pointer;
+}

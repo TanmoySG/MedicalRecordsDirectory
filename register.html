@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+Project by Tanmoy Sen Gupta | tanmoysps@gmail.com | www.tanmoysg.com
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Register | MLD</title>
+        <link rel="icon" href="favicon.ico" sizes="20x20" type="image/png">  
+        <link rel="stylesheet" type="text/css" href="styling/dashboard.css">
+        <link rel="stylesheet" type="text/css" href="styling/flexboxgrid.css">
+        <link rel="stylesheet" type="text/css" href="styling/forms.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.typekit.net/sgr8dvc.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Oswald|Raleway|Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    </head>
+    <body style=" height:  100%; background-color: #f5f5f5; padding-bottom: 10px;">
+        <div class="dashboard-navbar-light">
+            <div class="dashboard-navbar-options-light nav-title" style="width: 100%;">
+                <center>
+                    <span>
+                        <a href="index.php" style="float: left; padding-left: 50px; color: black">Medical Legacy Directory</a>
+                    </span>
+                    <span style="float: right;">
+                        <a href="login.php" style="color:#252525"><i class="fas fa-sign-in-alt"></i></a>  
+                    </span> 
+                </center>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div class="col-lg-offset-1 col-lg-10 box" style="vertical-align: middle; padding: 20px">
+                    <form action="userRegisterRequest.php" class="content-section" method="POST">
+                        <h1 style="font-size: 50px; ">REGISTER</h1>
+                        <div class="row form-input-group">
+                            <label style="float: left; vertical-align: middle;" class="col-lg-2">Name</label><input name="name" type="text" class="input-box col-lg-10">
+                        </div>
+                        <div class="row form-input-group">
+                            <label style="float: left; vertical-align: middle;" class="col-lg-2">DOB</label><input name="dob" type="date" class="input-box col-lg-2">
+                            <label style="text-align: center" class="col-lg-1">Gender</label><input name="gender" type="text" class="input-box col-lg-2">
+                            <label style="float: left; vertical-align: middle;" class="col-lg-1">City</label><input name="city" type="text" class="input-box col-lg-4">
+                        </div>
+                        <div class="form-input-group">
+                            <div class="row">
+                                <label style="float: left" class="col-lg-2">State</label><input name="state" type="text" class="input-box col-lg-4">
+                                <label style="text-align: center" class="col-lg-2">Country</label><input name="country" type="text" class="input-box col-lg-4">
+                            </div>
+                        </div>
+                        <div class="form-input-group">
+                            <div class="row">
+                                <label style="float: left; vertical-align: middle;" class="col-lg-2">Address</label><input name="residence" type="text" class="input-box col-lg-10">
+                            </div>
+                        </div>
+                        <div class="row form-input-group">
+                            <label style="float: left; vertical-align: middle;" class="col-lg-2">UID Type</label><input name="uidtype" type="text" class="input-box col-lg-4">
+                            <label style="text-align: center" class="col-lg-2">UID Number</label><input name="uid_no" type="text" class="input-box col-lg-4">
+                        </div>
+                        <div class="row form-input-group">
+                            <label style="float: left; vertical-align: middle;" class="col-lg-2">Phone</label><input name="phone" type="text" class="input-box col-lg-4">
+                            <label style="text-align: center" class="col-lg-2">Email</label><input name="email" type="text" class="input-box col-lg-4">
+                        </div>
+                        <br>
+                        <button type="submit" name="submit" class="form-button-one" style="border-color: #00cf7a; color: #00cf7a">Send registration Request</button>
+                    </form>
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>
