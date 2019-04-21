@@ -52,14 +52,8 @@ Project by Tanmoy Sen Gupta | tanmoysps@gmail.com | www.tanmoysg.com
 
                             if (isset($_POST['submit'])) {
                                 if ($_POST['verification_status'] === 'VERIFIED') {
-                                    $sql1 = "INSERT INTO `users`(`mln`,`name`, `dob`, `gender`, `city`, `state`, `country`, `residence`, `uid_type`, `uid_no`, `phone`, `email`) VALUES "
-                                            . "('" . $_POST['mln'] . "','" . $row['name'] . "', '" . $row['dob'] . "', '" . $row['gender'] . "', '" . $row['city'] . "', '" . $row['state'] . "',"
-                                            . " '" . $row['country'] . "', '" . $row['residence'] . "'"
-                                            . ", '" . $row['uid_type'] . "', '" . $row['uid_no'] . "', '" . $row['phone'] . "',"
-                                            . " '" . $row['email'] . "') ";
-                                    $sql2 = "UPDATE `user_reg_req` SET  `verification_status` = 'VERIFIED' WHERE sl=  '" . $member_id . "'";
-                                    $pdo->exec($sql1);
-                                    $pdo->exec($sql2);
+                                    $sql = "UPDATE `user_reg_req` SET  `verification_status` = 'VERIFIED' WHERE sl=  '" . $member_id . "'";
+                                    $pdo->exec($sql);
                                     echo 'Registration Request ACCEPTED after UID Verification';
                                 } else if ($_POST['verification_status'] === 'REJECTED') {
                                     echo 'Registration Request DENAIED as the UID was found to be faulty.';
@@ -90,10 +84,6 @@ Project by Tanmoy Sen Gupta | tanmoysps@gmail.com | www.tanmoysg.com
                                             <span class="col-lg-3 col-md-3 col-sm-12 col-xs-12">COUNTRY: <?php echo $row['country']; ?> </span>
                                         </div>
                                         <br>
-                                        <div class="row">
-                                            <span class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> UID TYPE: <?php echo $row['uid_type']; ?></span>
-                                            <span class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> UID NUMBER: <?php echo $row['uid_no']; ?></span>
-                                        </div>
                                         <br>
                                         <div class="row">
                                             <label class="col-lg-4 col-md-4 col-sm-12 col-xs-12">MEDICAL LEGACY NUMBER: </label>
@@ -123,7 +113,8 @@ Project by Tanmoy Sen Gupta | tanmoysps@gmail.com | www.tanmoysg.com
                                     </div> 
                                 </div>
                             </form>
-                        <?php }
+                            <?php
+                        }
                     }
                     ?>
                 </div>

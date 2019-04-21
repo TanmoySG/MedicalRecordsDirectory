@@ -64,10 +64,6 @@ Project by Tanmoy Sen Gupta | tanmoysps@gmail.com | www.tanmoysg.com
                                     <span class="col-lg-3 col-md-3 col-sm-12 col-xs-12">COUNTRY: <?php echo $row['country']; ?> </span>
                                 </div>
                                 <br>
-                                <div class="row">
-                                    <span class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> UID TYPE: <?php echo $row['uid_type']; ?></span>
-                                    <span class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> UID NUMBER: <?php echo $row['uid_no']; ?></span>
-                                </div>
                                 <br>
                                 <a href="registrationApproval.php?sl=<?php echo $row['sl']; ?>">Go to Request</a>
                                 <hr>

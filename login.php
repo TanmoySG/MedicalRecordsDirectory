@@ -37,7 +37,7 @@
                 <center><span class="col-12" style="font-family: Montserrat; font-size: 75px;">LOGIN</span></center><br>
                 <div class="content-section" style="font-family: bebas-neue">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+                       <!-- <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
                             <div class="box">
                                 <a style="color:  #1e78ff;" href="doctorLogin.php">
                                     <center>
@@ -59,7 +59,8 @@
                                 </a>
                             </div>
                         </div>  
-                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                       -->
+                        <div class="col-lg-offset-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="box">
                                 <a style="color:  #1e78ff;" href="userLogin.php">
                                     <center>
@@ -73,7 +74,7 @@
                     </div>
                 </div> 
                 <br><br><br>
-                <center style="font-family: Montserrat; font-size: 35px;color: black" class="col-12" >New user? <a href="register.html" style="color: #1e78ff ">Register</a></center><br>
+                <center style="font-family: Montserrat; font-size: 35px;color: black" class="col-12" >New user? <a href="register.php" style="color: #1e78ff ">Register</a></center><br>
             </div>
         </div>
     </body>
