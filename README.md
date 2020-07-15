@@ -7,6 +7,11 @@ The Project’s aim is to use an Individual’s Unique Identification Number (Aa
 ![mc](https://github.com/TanmoySG/MedicalRecordsDirectory/blob/master/Screenshots/MLD%20SC/smartmockups_kcn2wzcg.jpg)
 
 
- | | | |
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![Blog-PC](https://github.com/TanmoySG/MedicalRecordsDirectory/blob/master/Screenshots/MLD%20SC/smartmockups_kcn2z5x3.jpg) | ![Blog-PC](https://github.com/TanmoySG/MedicalRecordsDirectory/blob/master/Screenshots/MLD%20SC/smartmockups_kcn30rce.jpg) | ![Blog-PC](https://github.com/TanmoySG/MedicalRecordsDirectory/blob/master/Screenshots/MLD%20SC/smartmockups_kcn32asu.jpg) | ![Blog-PC](https://github.com/TanmoySG/MedicalRecordsDirectory/blob/master/Screenshots/MLD%20SC/smartmockups_kcn33qli.jpg) 
+<table style="padding:10px">
+  <tr>
+    <td><img src="https://github.com/TanmoySG/MedicalRecordsDirectory/blob/master/Screenshots/MLD%20SC/smartmockups_kcn2z5x3.jpg"  alt="1" ></td>
+    <td><img src="https://github.com/TanmoySG/MedicalRecordsDirectory/blob/master/Screenshots/MLD%20SC/smartmockups_kcn30rce.jpg"  alt="2" ></td>
+    <td><img src="https://github.com/TanmoySG/MedicalRecordsDirectory/blob/master/Screenshots/MLD%20SC/smartmockups_kcn32asu.jpg"  alt="3"></td>
+    <td><img src="https://github.com/TanmoySG/MedicalRecordsDirectory/blob/master/Screenshots/MLD%20SC/smartmockups_kcn33qli.jpg"  alt="4" ></td>
+  </tr>
+</table>
